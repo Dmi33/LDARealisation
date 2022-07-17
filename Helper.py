@@ -8,7 +8,7 @@ import re
 Создаём csv-файл из отзыва на фильм и оценки фильму
 """
 def make_csv():
-    basepath = "D:\ТРИТОН ПРОЕКТЫ\git\\NLPLogicRegression\\aclImdb"
+    #basepath = ссылка на репозиторий, в который распакован архив с отзывами
     labels={'pos':1,'neg':0}
     pbar = pyprind.ProgBar(50000)
     df = pd.DataFrame()
